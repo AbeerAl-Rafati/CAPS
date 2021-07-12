@@ -19,7 +19,7 @@ let inTransit = (event, payload) => {
 
 
 let vendorThanks = (payload) => {
-  console.log(`Thank you for delivering ${payload.orderID}`);
+  console.log(`Vendor : Thank you for delivering ${payload.orderID}`);
 }
 
 let delivered = (event, payload) => {
