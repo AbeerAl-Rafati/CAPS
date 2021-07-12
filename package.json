@@ -1,0 +1,22 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbeerAl-Rafati/api-server/issues"
+  },
+  "homepage": "https://github.com/AbeerAl-Rafati/api-server#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
