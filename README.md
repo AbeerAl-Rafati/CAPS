@@ -10,10 +10,13 @@ To use this app:
 
 1. clone this repo
 2. cd the repo
-3. to download all dependencies used in this app, use in terminal
+3. to download all dependencies used in this app, use in terminal  
    `npm i`
 
-4. to run the server use in terminal
+4. to run the server use in terminal  
    `node vendor.js`
+
+5. for testing use  
+   `npm test`
 
 ![pic](lab11.PNG)
