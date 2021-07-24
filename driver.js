@@ -9,7 +9,7 @@ events.on("pickUp", (payload) => {
   }, 1000);
 
   setTimeout(() => {
-    events.emit("in-transit", payload);
+    events.emit("inTransit", payload);
   }, 2000);
 });
 

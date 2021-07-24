@@ -15,7 +15,7 @@ let payload = {
 
 let order = () => {
   // setTimeout(() => events.emit("pickup", payload), 5000);
-  setInterval(() => events.emit("pickUp", payload), 5000);
+  setInterval(() => events.emit("pickUp", payload), 10000);
 };
 
 order();
