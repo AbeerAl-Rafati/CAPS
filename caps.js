@@ -1,16 +1,9 @@
-const events = require('./events.js');
-// const faker = require('faker');
+// const events = require("./events.js");
+// const payload = require("./vendor");
 
-require('dotenv').config();
-let STORE = process.env.STORE
-const payload = require('./vendor')
+// require("./driver.js");
+// require("./vendor.js");
 
-require('./driver.js');
-require('./vendor.js');
-
-
-
-
-events.emit('pickup', payload);
-events.emit('in-transit', payload);
-events.emit('delivered', payload);
+// // events.emit("pickUp", payload);
+// events.emit("in-transit", payload);
+// events.emit("delivered", payload);
